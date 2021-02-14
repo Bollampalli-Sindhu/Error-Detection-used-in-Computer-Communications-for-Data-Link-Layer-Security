@@ -10,6 +10,7 @@
 
 Providing port number while execution is optional but if given, it must be provided for both the programs
 ### Summary
+- It is a simple client-server programming model where client acts as transmitter and server acts as reciever.
 - The error detection function used is CRC
 - Key being used for CRC check is 4 bit string "1011" which is fixed on both client and server side.
 - Only Client sends the encrypted message while server receives it and decrypts it.
